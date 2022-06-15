@@ -1,0 +1,102 @@
+ /*Reboot*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+ }
+ *,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ :focus,:active{outline: none;}
+ a:focus,a:active{outline: none;}
+ nav,footer,header,aside{display: block;}
+ html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+ }
+ .btn, button{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+ }
+ 
+ .btn:focus, button:focus{
+   outline: none;
+ } 
+ a[href^=tel]{
+    color: #000;
+ }
+ input,button,textarea{font-family: inherit;}
+ input::-ms-clear{display: none;}
+ button{cursor: pointer;}
+ button::-moz-focus-inner{padding: 0;border: 0;}
+ a,a:visited{text-decoration: none;}
+ a:hover{text-decoration: none;}
+ ul li{list-style: none;}
+ img{vertical-align: top;}
+ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+/*Main Body*/
+ 
+ body{max-width: 3840px;width: 100%;padding: 0px;margin: 0px auto;}
+ 
+/*Block 1 Styles*/
+
+.block1{width: 100%;display: flex;}
+.block1_1{display: block;width: 100%;height: auto;background: url(../img/photo.png) no-repeat;background-size: 100%;}
+.block1_2{display: block;width: 100%;text-align: center;}
+.header_list{word-spacing: 2vw;margin-top: 5.7%;}
+.header_item{display: inline;font-size: 1.5vw;font-family: "Karla";font-weight: 300;}
+.page1_text1{font-size: 1vw;font-family: "Oxygen";font-weight: 300;line-height: 150%;margin-top: 35%;}
+.vector1{margin-top: 1.5%; width: 21%;}
+.page1_text2{margin-top: 22%;font-family: "Oxygen";font-weight: 700;font-size: 2.5vw;}
+.page1_text3{margin-top: 3%;font-family: "Oxygen";font-weight: 300;font-size: 1.2vw;}
+.page1_list{margin-top: 49%;word-spacing: 2vw;padding-bottom: 4%;}
+.list1_item{display: inline;font-size: 1.2vw;font-weight: 200;font-family: "Karla";}
+
+/*Block 2 Styles*/
+
+.block2{width: 100%;display: flex;}
+.block2_part1{width: 100%;display: block;}
+.page2_text1{font-family: "Karla";font-weight: 300;margin-top: 18%;font-size: 1.7vw;margin-left: 12%;}
+.page_text2_1{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-left: 12%;line-height: 150%;margin-top: 15%;}
+.page_text2_2{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-left: 12%;line-height: 150%;margin-top: 2.5%;}
+.page_text2_3{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-left: 12%;line-height: 150%;margin-top: 3.5%;}
+
+.page2images{display: flex;width: 100%;}
+.page2bg{display: block;position: relative; width: 97.02%;height: 100%;left: 3%;top: 20%;}
+.page2img1{display: block;position: relative; width: 70%;height: 100%;left: -124%;top: 31%;}
+.page2img2{display: block;position: relative; width: 55.45%;height: 80%;left: -122.2%;}
+.page2text3{display: block;position: relative; width: 40%;height: 20%;left: -169%;top: 90%;}
+
+/*Block 3 Styles*/
+
+.block3{display: flex;width: 100%;}
+.block3_1{display: block;width: 100%;}
+.page3_bg{position: relative; top: 20.5%;left: 23%; width: 62%;}
+.page3_img1{position: relative;top: -8%;left: 40%;width: 73%;}
+.page3_text_vert{position: relative;top: -7.6%;left: -36%;width: 3%;}
+.page3_text_und{position: relative;font-size: 1.1vw;font-family: "Karla";font-weight: 300;left: 75%;top: -8%;}
+
+.block3_2{display: block;width: 100%;}
+.page3_text1{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-top: 70%;margin-left: 32%;line-height: 150%;}
+.page3_text2{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-top: 4%;margin-left: 32%;line-height: 150%;}
+.page3_text3{font-family: "Karla";font-weight: 200;font-size: 1.1vw;margin-top: 4%;margin-left: 32%;line-height: 150%;}
+.page3_logo{margin-left: 35%;width: 30%;margin-top: -2%;}
+
+/*Footer Styles*/
+
+.block_footer{display: flex;width: 100%;margin-top: -2%;padding-bottom: 2%;}
+.foot_email{font-family: "Karla";font-weight: 300;font-size: 1.2vw;margin-left: 6%;padding-right: 20%;}
+.main_foot_list{word-spacing: 3vw;}
+.foot_list{display: inline;font-size: 1.2vw;font-weight: 200;font-family: "Karla";}
+.foot_name{font-family: "Karla";font-weight: 300;font-size: 1.2vw;margin-left: 21%;}
